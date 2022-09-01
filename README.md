@@ -48,7 +48,7 @@ if let statusesArray = try? JSONSerialization.jsonObject(with: data, options: .a
 }
 ```
 
-It's not good.
+HNB: Not ideal for day-to-day work
 
 Even if we use optional chaining, it would be messy:
 
